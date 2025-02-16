@@ -1,0 +1,171 @@
+/* Global Styles */
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #fff;
+    background-color: #111;
+}
+
+h1, h2, h3 {
+    font-family: 'Playfair Display', serif;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.cta-button {
+    padding: 12px 30px;
+    background-color: gold;
+    color: black;
+    border: none;
+    font-size: 16px;
+    border-radius: 5px;
+    text-transform: uppercase;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+/* Header */
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: black;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+header .logo h1 {
+    color: gold;
+    font-size: 36px;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+header nav ul li a {
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+header nav ul li a:hover {
+    color: gold;
+}
+
+/* Hero Section */
+.hero {
+    background-color: black;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+}
+
+.hero-text h1 {
+    font-size: 48px;
+}
+
+.hero-text p {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.hero-text .cta-button {
+    background-color: gold;
+    color: black;
+    font-size: 18px;
+}
+
+/* About Us Section */
+.about {
+    padding: 50px;
+    background-color: #222;
+}
+
+.about-content {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+/* Services Section */
+.services {
+    background-color: black;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.service-cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+}
+
+.service-card {
+    background-color: #333;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.service-card h3 {
+    color: gold;
+}
+
+.service-card p {
+    color: #bbb;
+}
+
+/* Contact Section */
+.contact {
+    background-color: #222;
+    padding: 50px;
+    text-align: center;
+}
+
+.contact form {
+    max-width: 600px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.contact form input,
+.contact form textarea {
+    padding: 12px;
+    border-radius: 5px;
+    border: 2px solid #444;
+    background-color: #111;
+    color: #fff;
+    font-size: 16px;
+}
+
+.contact form button {
+    background-color: gold;
+    border: none;
+    padding: 15px;
+    font-size: 18px;
+}
+
+.contact-info {
+    margin-top: 20px;
+    font-size: 18px;
+}
+
+/* Footer */
+footer {
+    background-color: black;
+    text-align: center;
+    padding: 20px;
+    color: gold;
+}
